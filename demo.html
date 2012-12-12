@@ -18,10 +18,11 @@
         </style>
     
         <script type="text/javascript">
-            var i = 0;
+            var i = 1;
 
             function element() {
-                var e = $("<div>").html(++i);
+                var e = $("<div>").html(i);
+                i++;
                 $("#value span").html(i);
                 return e;
             }
