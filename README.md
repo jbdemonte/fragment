@@ -14,7 +14,7 @@ Using fragment is as easy as using native append / prepend jQuery functions. App
 
 Insert content, specified by the parameter, to the end of the fragment.
 
-### .appendToFragment(content) 
+### .prependToFragment(content) 
 
 Insert content, specified by the parameter, to the beginning of the fragment.
 
